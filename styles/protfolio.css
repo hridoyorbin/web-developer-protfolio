@@ -3,6 +3,9 @@ body{
 }
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200;
 }
 .text-primary{
     color: orange;
@@ -10,6 +13,10 @@ nav{
 .btn-primary{
     border-radius: 50;
     background-color: orange;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
 }
 .nav-title{
     
@@ -19,6 +26,7 @@ nav{
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -26,4 +34,22 @@ nav li{
 }
 nav a{
     color: darkcyan;
+}
+.header{
+    background-color: lightgoldenrodyellow;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right ;
+    
+
+}
+.banner{
+    padding: 30px 3px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .profile-picture{
+    width: 500px ;
+    
 }
